@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/* HEADER GENERAL */
+header {
+    width: 100%;
+}
+
+/* CONTENEDOR */
+.cabeceras {
+    margin: auto;
+}
+
+/* CABECERA SUPERIOR */
+.cabecera-superior {
+    background-color: #6A5541;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+
+}
+
+#redes-cabecera {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 90px;
+    justify-content: space-around;
+
+}
+
+#botones-cabecera {
+    display: flex;
+    /* activa flexbox */
+    align-items: center;
+    /* centra vertical */
+    gap: 20px;
+    /* espacio entre botones */
+    padding-right: 55px;
+}
+
+.btn-leguaje {
+    border: none;
+    /* quita borde */
+    box-shadow: none;
+    /* quita sombra */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #171B41;
+    border-radius: 3px;
+}
+
+.btn-leguaje:hover {
+    border: none;
+    /* quita borde */
+    box-shadow: none;
+    /* quita sombra */
+    background: #E96c20;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.btn-login,
+.btn-registro {
+    text-decoration: none;
+    /* quita subrayado */
+    color: aliceblue;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: #E96c20;
+}
+
+.btn-registro:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: #E96c20;
+}
+
+/* CABECERA INFERIOR */
+.cabecera-inferior {
+    list-style: none;
+    background: linear-gradient(90deg,
+            rgba(0, 64, 128, 0.66),
+            rgba(2, 80, 199, 0.66)),
+        url("/images/lugares/fondo2.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 45px;
+}
+
+
+.menu-horizontal ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav li {
+    margin-right: 45px;
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    display: block;
+   transition: background-color 0.2s;
+   font-family: poppins;
+}
+
+nav a:hover {
+    color:#171B41;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+main {
+    margin: 0%;
+    width: 100%;
+}
+
+section {
+
+    background-color: #CFE2FB;
+    display: flex;              /* ACTIVA FLEX */
+    flex-direction: column;     /* uno debajo del otro */
+    justify-content: center;    /* centra vertical */
+    align-items: center;        /* centra horizontal */
+    font-family:"IBM Plex Sans Devanagari", sans-serif;
+    margin-top: 20px;
+    
+}
+
+#title1 {
+    color: #171B41;
+    text-align: center;
+    margin-bottom: 5px; 
+    letter-spacing: 0.1em; /* Activa separación del texto */
+    font-size: 30px;
+}
+
+#title2 {
+     color: #171B41;
+      text-align: center;
+      margin-top: 0px;
+      letter-spacing: 0.1em; /* Activa separación del texto */
+      font-size: 30px;
+    
+}
+
+
+.footer-container {
+    margin: 0%;
+    padding:0%;
+    display: flex;
+    gap: 1ram;
+    background-color: #6A5541;
+
+}
